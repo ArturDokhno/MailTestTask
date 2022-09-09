@@ -11,7 +11,7 @@ protocol SelectProposedMailProtocol: AnyObject {
     func selectProposedMail(indexPath: IndexPath)
 }
 
-enum idCell: String {
+enum IdCell: String {
     case idMailCell
 }
 
@@ -23,7 +23,7 @@ class MailCollectionView: UICollectionView {
         super.init(frame: frame, collectionViewLayout: layout)
         
         configure()
-        register(MailCollectionViewCell.self, forCellWithReuseIdentifier: idCell.idMailCell.rawValue)
+        register(MailCollectionViewCell.self, forCellWithReuseIdentifier: IdCell.idMailCell.rawValue)
     }
     
     required init?(coder: NSCoder) {
