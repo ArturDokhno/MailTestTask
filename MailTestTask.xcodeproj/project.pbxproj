@@ -16,6 +16,8 @@
 		75421C3828CB4312002DF0A1 /* UIStackView+Extension .swift in Sources */ = {isa = PBXBuildFile; fileRef = 75421C3728CB4312002DF0A1 /* UIStackView+Extension .swift */; };
 		75421C3A28CB43CC002DF0A1 /* MailTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75421C3928CB43CC002DF0A1 /* MailTextField.swift */; };
 		75421C3C28CB4562002DF0A1 /* VerificationButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75421C3B28CB4562002DF0A1 /* VerificationButton.swift */; };
+		75421C4028CB4729002DF0A1 /* MailCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75421C3F28CB4729002DF0A1 /* MailCollectionView.swift */; };
+		75421C4328CB47CD002DF0A1 /* MailCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75421C4228CB47CD002DF0A1 /* MailCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		75421C3728CB4312002DF0A1 /* UIStackView+Extension .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView+Extension .swift"; sourceTree = "<group>"; };
 		75421C3928CB43CC002DF0A1 /* MailTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailTextField.swift; sourceTree = "<group>"; };
 		75421C3B28CB4562002DF0A1 /* VerificationButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationButton.swift; sourceTree = "<group>"; };
+		75421C3F28CB4729002DF0A1 /* MailCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailCollectionView.swift; sourceTree = "<group>"; };
+		75421C4228CB47CD002DF0A1 /* MailCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,8 +70,8 @@
 				75421C2F28CB3D8D002DF0A1 /* Models */,
 				75421C3128CB3D9C002DF0A1 /* Views */,
 				75421C3028CB3D95002DF0A1 /* Controllers */,
-				75421C3228CB3DB4002DF0A1 /* Resourse */,
 				75421C3528CB42D7002DF0A1 /* Extensions */,
+				75421C3228CB3DB4002DF0A1 /* Resourse */,
 			);
 			path = MailTestTask;
 			sourceTree = "<group>";
@@ -99,9 +103,8 @@
 		75421C3128CB3D9C002DF0A1 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				75421C3328CB400C002DF0A1 /* StatusLabel.swift */,
-				75421C3928CB43CC002DF0A1 /* MailTextField.swift */,
-				75421C3B28CB4562002DF0A1 /* VerificationButton.swift */,
+				75421C4128CB47BE002DF0A1 /* Cells */,
+				75421C4428CB4CE7002DF0A1 /* VerificationVC */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -130,6 +133,25 @@
 				75421C3728CB4312002DF0A1 /* UIStackView+Extension .swift */,
 			);
 			path = UIKit;
+			sourceTree = "<group>";
+		};
+		75421C4128CB47BE002DF0A1 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				75421C4228CB47CD002DF0A1 /* MailCollectionViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		75421C4428CB4CE7002DF0A1 /* VerificationVC */ = {
+			isa = PBXGroup;
+			children = (
+				75421C3328CB400C002DF0A1 /* StatusLabel.swift */,
+				75421C3928CB43CC002DF0A1 /* MailTextField.swift */,
+				75421C3B28CB4562002DF0A1 /* VerificationButton.swift */,
+				75421C3F28CB4729002DF0A1 /* MailCollectionView.swift */,
+			);
+			path = VerificationVC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -203,10 +225,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				75421C3428CB400C002DF0A1 /* StatusLabel.swift in Sources */,
+				75421C4328CB47CD002DF0A1 /* MailCollectionViewCell.swift in Sources */,
 				75421C3C28CB4562002DF0A1 /* VerificationButton.swift in Sources */,
 				75421C1F28CB3C0A002DF0A1 /* VerificationViewController.swift in Sources */,
 				75421C3A28CB43CC002DF0A1 /* MailTextField.swift in Sources */,
 				75421C3828CB4312002DF0A1 /* UIStackView+Extension .swift in Sources */,
+				75421C4028CB4729002DF0A1 /* MailCollectionView.swift in Sources */,
 				75421C1B28CB3C0A002DF0A1 /* AppDelegate.swift in Sources */,
 				75421C1D28CB3C0A002DF0A1 /* SceneDelegate.swift in Sources */,
 			);
