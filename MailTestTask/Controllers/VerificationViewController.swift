@@ -18,6 +18,7 @@ class VerificationViewController: UIViewController {
     }()
     
     private let statusLabel = StatusLabel()
+    private let mailTextField = MailTextField()
     
     override func viewDidLoad() {
         super.viewDidLoad()

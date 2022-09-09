@@ -13,6 +13,9 @@
 		75421C2428CB3C0D002DF0A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75421C2328CB3C0D002DF0A1 /* Assets.xcassets */; };
 		75421C2728CB3C0D002DF0A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75421C2528CB3C0D002DF0A1 /* LaunchScreen.storyboard */; };
 		75421C3428CB400C002DF0A1 /* StatusLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75421C3328CB400C002DF0A1 /* StatusLabel.swift */; };
+		75421C3828CB4312002DF0A1 /* UIStackView+Extension .swift in Sources */ = {isa = PBXBuildFile; fileRef = 75421C3728CB4312002DF0A1 /* UIStackView+Extension .swift */; };
+		75421C3A28CB43CC002DF0A1 /* MailTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75421C3928CB43CC002DF0A1 /* MailTextField.swift */; };
+		75421C3C28CB4562002DF0A1 /* VerificationButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75421C3B28CB4562002DF0A1 /* VerificationButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		75421C2628CB3C0D002DF0A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		75421C2828CB3C0D002DF0A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		75421C3328CB400C002DF0A1 /* StatusLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusLabel.swift; sourceTree = "<group>"; };
+		75421C3728CB4312002DF0A1 /* UIStackView+Extension .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView+Extension .swift"; sourceTree = "<group>"; };
+		75421C3928CB43CC002DF0A1 /* MailTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailTextField.swift; sourceTree = "<group>"; };
+		75421C3B28CB4562002DF0A1 /* VerificationButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +67,7 @@
 				75421C3128CB3D9C002DF0A1 /* Views */,
 				75421C3028CB3D95002DF0A1 /* Controllers */,
 				75421C3228CB3DB4002DF0A1 /* Resourse */,
+				75421C3528CB42D7002DF0A1 /* Extensions */,
 			);
 			path = MailTestTask;
 			sourceTree = "<group>";
@@ -93,6 +100,8 @@
 			isa = PBXGroup;
 			children = (
 				75421C3328CB400C002DF0A1 /* StatusLabel.swift */,
+				75421C3928CB43CC002DF0A1 /* MailTextField.swift */,
+				75421C3B28CB4562002DF0A1 /* VerificationButton.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -105,6 +114,22 @@
 				75421C2828CB3C0D002DF0A1 /* Info.plist */,
 			);
 			path = Resourse;
+			sourceTree = "<group>";
+		};
+		75421C3528CB42D7002DF0A1 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				75421C3628CB42F8002DF0A1 /* UIKit */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		75421C3628CB42F8002DF0A1 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				75421C3728CB4312002DF0A1 /* UIStackView+Extension .swift */,
+			);
+			path = UIKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -178,7 +203,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				75421C3428CB400C002DF0A1 /* StatusLabel.swift in Sources */,
+				75421C3C28CB4562002DF0A1 /* VerificationButton.swift in Sources */,
 				75421C1F28CB3C0A002DF0A1 /* VerificationViewController.swift in Sources */,
+				75421C3A28CB43CC002DF0A1 /* MailTextField.swift in Sources */,
+				75421C3828CB4312002DF0A1 /* UIStackView+Extension .swift in Sources */,
 				75421C1B28CB3C0A002DF0A1 /* AppDelegate.swift in Sources */,
 				75421C1D28CB3C0A002DF0A1 /* SceneDelegate.swift in Sources */,
 			);
