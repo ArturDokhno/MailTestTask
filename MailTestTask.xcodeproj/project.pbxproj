@@ -18,6 +18,7 @@
 		75421C3C28CB4562002DF0A1 /* VerificationButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75421C3B28CB4562002DF0A1 /* VerificationButton.swift */; };
 		75421C4028CB4729002DF0A1 /* MailCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75421C3F28CB4729002DF0A1 /* MailCollectionView.swift */; };
 		75421C4328CB47CD002DF0A1 /* MailCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75421C4228CB47CD002DF0A1 /* MailCollectionViewCell.swift */; };
+		7574C2AF28D4A717004BFEBF /* VerificationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7574C2AE28D4A717004BFEBF /* VerificationModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		75421C3B28CB4562002DF0A1 /* VerificationButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationButton.swift; sourceTree = "<group>"; };
 		75421C3F28CB4729002DF0A1 /* MailCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailCollectionView.swift; sourceTree = "<group>"; };
 		75421C4228CB47CD002DF0A1 /* MailCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailCollectionViewCell.swift; sourceTree = "<group>"; };
+		7574C2AE28D4A717004BFEBF /* VerificationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 		75421C2F28CB3D8D002DF0A1 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				7574C2AE28D4A717004BFEBF /* VerificationModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -226,6 +229,7 @@
 			files = (
 				75421C3428CB400C002DF0A1 /* StatusLabel.swift in Sources */,
 				75421C4328CB47CD002DF0A1 /* MailCollectionViewCell.swift in Sources */,
+				7574C2AF28D4A717004BFEBF /* VerificationModel.swift in Sources */,
 				75421C3C28CB4562002DF0A1 /* VerificationButton.swift in Sources */,
 				75421C1F28CB3C0A002DF0A1 /* VerificationViewController.swift in Sources */,
 				75421C3A28CB43CC002DF0A1 /* MailTextField.swift in Sources */,
