@@ -35,6 +35,14 @@ class MailCollectionViewCell: UICollectionViewCell {
         addSubview(domainLabel)
     }
     
+    private func configure(mailLabelText: String) {
+        domainLabel.text = mailLabelText
+    }
+    
+    public func cellConfigure(mailLabelTex: String) {
+        configure(mailLabelText: mailLabelTex)
+    }
+    
 }
 
 // MARK: - Set Constraints

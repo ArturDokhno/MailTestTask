@@ -19,6 +19,7 @@
 		75421C4028CB4729002DF0A1 /* MailCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75421C3F28CB4729002DF0A1 /* MailCollectionView.swift */; };
 		75421C4328CB47CD002DF0A1 /* MailCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75421C4228CB47CD002DF0A1 /* MailCollectionViewCell.swift */; };
 		7574C2AF28D4A717004BFEBF /* VerificationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7574C2AE28D4A717004BFEBF /* VerificationModel.swift */; };
+		7574C2B128D5915E004BFEBF /* String + Extension .swift in Sources */ = {isa = PBXBuildFile; fileRef = 7574C2B028D5915E004BFEBF /* String + Extension .swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		75421C3F28CB4729002DF0A1 /* MailCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailCollectionView.swift; sourceTree = "<group>"; };
 		75421C4228CB47CD002DF0A1 /* MailCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailCollectionViewCell.swift; sourceTree = "<group>"; };
 		7574C2AE28D4A717004BFEBF /* VerificationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationModel.swift; sourceTree = "<group>"; };
+		7574C2B028D5915E004BFEBF /* String + Extension .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String + Extension .swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +128,7 @@
 			isa = PBXGroup;
 			children = (
 				75421C3628CB42F8002DF0A1 /* UIKit */,
+				7574C2B028D5915E004BFEBF /* String + Extension .swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -236,6 +239,7 @@
 				75421C3828CB4312002DF0A1 /* UIStackView+Extension .swift in Sources */,
 				75421C4028CB4729002DF0A1 /* MailCollectionView.swift in Sources */,
 				75421C1B28CB3C0A002DF0A1 /* AppDelegate.swift in Sources */,
+				7574C2B128D5915E004BFEBF /* String + Extension .swift in Sources */,
 				75421C1D28CB3C0A002DF0A1 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
