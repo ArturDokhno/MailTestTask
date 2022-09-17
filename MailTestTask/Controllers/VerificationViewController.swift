@@ -95,12 +95,17 @@ extension VerificationViewController: SelectProposedMailProtocol {
 extension VerificationViewController: ActionMailTextFieldProtocol {
     
     func typingText(text: String) {
+        statusLabel.isValid = text.isValid()
+        verificationButton.isValid = text.isValid()
         verificationModel.getFilteredMail(text: text)
         collectionView.reloadData()
     }
     
     func cleanOutTextField() {
-        print("clean")
+        statusLabel.setDefaultSettings()
+        verificationButton.setDefaultSettings()
+        verificationModel.filteredMailArray = []
+        collectionView.reloadData()
     }
 
 }
